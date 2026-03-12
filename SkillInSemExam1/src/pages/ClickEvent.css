@@ -1,0 +1,46 @@
+/* Page container – full screen center */
+.click-container {
+  display: flex;
+  justify-content: center;     /* center horizontally */
+  align-items: center;          /* center vertically */
+  height: 100vh;
+  width: 100vw;
+  background-color: #222;       /* dark background */
+  font-family: Arial, sans-serif;
+}
+
+/* White horizontal box */
+.click-box {
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text inside box */
+.message {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Button styling */
+.click-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.click-button:hover {
+  background-color: #45a049;
+}
